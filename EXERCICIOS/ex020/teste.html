@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        p{
+            font-weight: 900;
+            font-size: 140px;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        div{
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        div>p{
+            display: none;
+        }
+
+        div:hover>p{
+            display: block;
+        }
+
+        div:hover{
+            color: red;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de Hover</h1>
+    <h2>Usando o Hover</h2>
+    <div>
+        Passe o mouse aqui!!
+        <p>Hello word!!!</p>
+    </div>
+</body>
+</html>

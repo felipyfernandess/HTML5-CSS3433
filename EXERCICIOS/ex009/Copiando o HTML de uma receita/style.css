@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(251, 236, 211);
+}
+main{
+    width: 600px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 12px;
+
+}
+
+img{
+    width: 400px;
+}
+
+

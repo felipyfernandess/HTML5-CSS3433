@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, aliquid? Ratione error laborum id ducimus dolor laboriosam quaerat eum, unde sit, quod dicta ad provident explicabo eius ea. Sit, molestiae.</p>
+
+    <ul>
+        <li><a href="paginas-extra/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extra/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extra/pag003.html" target="frame">Terceira página</a></li>
+        <li><a href="https://felipyfernandess.github.io/projeto-cordel/" target="frame">Projeto Cordel</a></li>
+        <li><a href="https://felipyfernandess.github.io/projeto-android/" target="frame">Projeto Andorid</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor optio dignissimos perspiciatis. Delectus sapiente ipsam commodi reprehenderit ducimus pariatur, assumenda, id aspernatur totam nam labore recusandae. Incidunt necessitatibus labore assumenda!</p>
+
+    <iframe name="frame" srcdoc="
+        <h1> Escolha uma das opções acima </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellendus possimus nulla deleniti eaque tenetur veritatis animi sapiente quo repudiandae veniam placeat recusandae neque facere dicta, dolor quis earum ipsa.</p>
+    ">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam eos ullam praesentium rem quibusdam sed qui, saepe sunt sapiente voluptate ea alias animi quis debitis accusantium obcaecati vel! Numquam, nisi?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam incidunt nemo asperiores nihil porro, praesentium reiciendis odit quibusdam ex quisquam id expedita quasi qui accusantium, sit facilis nostrum libero officiis?</p>
+</body>
+</html>

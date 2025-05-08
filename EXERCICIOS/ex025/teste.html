@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="inome" id="inome" required>
+            </p>
+            <p>
+                <label for="iend">Endereço:</label>
+                <input type="text" name="iend" id="iend" required>
+            </p>
+            <p>
+                <label for="icid">Cidade</label>
+                <input type="text" name="icid" id="icid" required>
+            </p>
+            <p>
+                <label for="iestado">Estado:</label>
+                <select name="estado" id="iestado">
+                    <option value="">São Paulo</option>
+                </select>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <fieldset style="border: 0;">
+                <legend >Natureza do cargo</legend>
+                <input type="radio" name="cargo" id="iger">
+                <label for="iger">Gerência</label>
+                <input type="radio" name="cargo" id="ifinan">
+                <label for="ifinan">Financeiro</label>
+                <input type="radio" name="cargo" id="irec">
+                <label for="irec">Recepção</label>
+                <input type="radio" name="cargo" id="iadmin">
+                <label for="iadmin">Administrativo</label>
+                <input type="radio" name="cargo" id="ijuri">
+                <label for="ijuri">Jurídico</label>
+            </fieldset>
+            <br>
+            <fieldset style="border: 0;">
+                <legend>Área de interesse</legend>
+                <input type="checkbox" name="comp" id="icomp">
+                <label for="icomp">Computação</label>
+                <input type="checkbox" name="bio" id="ibio">
+                <label for="ibio">Biologia</label>
+                <input type="checkbox" name="mei" id="imei">
+                <label for="imei">Meio Ambiente</label>
+                <input type="checkbox" name="eng" id="ieng">
+                <label for="ieng">Engenharia</label>
+                <input type="checkbox" name="his" id="ihis">
+                <label for="ihis">História</label>
+            </fieldset>
+            <br>
+            <label for="curri">Mini-currículo:</label>
+            <textarea name="curri" id="curri" cols="40" rows="6" placeholder="Seu currículo aqui..." required></textarea>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
