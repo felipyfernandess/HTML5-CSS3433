@@ -50,7 +50,8 @@ header > nav > a{
 header > nav > a:hover{
     background-color: white;
     color: black;
-    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.329);
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
 }
 
 main{
